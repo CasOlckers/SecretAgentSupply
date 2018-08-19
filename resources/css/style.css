@@ -1,0 +1,290 @@
+/* Main Container */
+.mainContainer {
+  width: 1280px;
+  height: 1280px;
+  border: 1px solid red;
+}
+
+html {
+  font-size: 18px;
+}
+
+/*Logo*/
+
+.logoContainer {
+
+  width: 1280px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.logo {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.logo img {
+  height: 1.5rem;
+  width: 50px;
+  margin-left: 5rem;
+  padding-top: 0.66rem;
+  padding-bottom: : 0.66rem;
+
+}
+
+.logo span {
+  font-size: 18px;
+  color: white;
+  padding-top: 0.66rem;
+  padding-left: 1rem;
+  font-family: Helvetica;
+
+
+}
+
+/* Inner Container */
+
+.innerContainer {
+  width: 960px;
+  height: auto;
+}
+/*Banner*/
+
+.mainBanner {
+display: flex;
+flex-direction: row;
+width: 100%;
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+
+
+.mainBanner img {
+  width: 100%;
+  height: 25rem;
+
+
+}
+
+
+.bannerText {
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  top: 9rem;
+  border: 1px solid black;
+  position: absolute;
+  opacity: 1px;
+  width: 30%;
+  margin-left: 160px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+
+}
+
+
+
+.bannerText h3 {
+  top: 2rem;
+  left: 3rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  padding: 5px;
+
+}
+
+.bannerText h2 {
+  top: 2rem;
+  left: 3rem;
+  font-family: Helvetica;
+  font-size: 2rem;
+  color: white;
+  padding: 5px;
+}
+
+/* Navigation*/
+
+.navigation {
+  width: 1280px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: firebrick;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation span {
+  top: 0.75rem;
+  bottom: 0.75rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  padding: 5px;
+}
+
+
+/* Products */
+.productGrid {
+  width: 1280px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.productContainer {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 10%;
+  align-items: center;
+  padding: 3rem;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 4px;
+
+}
+
+.productContainer span {
+  padding-bottom: 0.5rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  display: block;
+  padding-top: 0.5rem;
+  background-color: black;
+  text-align: center;
+  width: auto;
+
+
+
+}
+
+.productContainer img {
+  max-height: 9rem;
+  border: 4px solid black;
+
+}
+
+#glasses {
+  max-width: 12rem;
+
+}
+
+/* Location and Hours containers */
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%
+  justify-content: flex-start;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.locationContainer {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 35%;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 4px;
+  margin-bottom: 4rem;
+
+}
+
+.locationContainer span {
+  padding-bottom: 1rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  display: block;
+  padding-top: 1rem;
+  background-color: black;
+  text-align: left;
+  width: 100%;
+
+
+
+}
+
+.hoursContainer {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 35%;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 4px;
+  margin-bottom: 4rem;
+
+}
+
+.hoursContainer span {
+  padding-bottom: 1rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  display: block;
+  padding-top: 1rem;
+  background-color: black;
+  text-align: left;
+  width: 100%;
+
+
+
+}
+
+.footer {
+    width: 1280px;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: flex-start;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.footertext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0;
+
+}
+.footertext span {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+
+
+}
